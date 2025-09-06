@@ -327,12 +327,30 @@
                             <div class="text">
                                 <div>技术栈:MATLAB+ANSYS</div> 
                               <ul>
-                                本项目通过建立噪声分析模型，量化分析模数转换（ADC）噪声对桶形探测器、四象限探测器及 CCD 传感器
-                                三种核心光电探测器件的关键性能指标影响，重点探究噪声水平与位移分辨率、动态范围之间的耦合关系。
-                                研究成果不仅为 MEMS 重力仪等精密测量系统的传感器选型提供了科学、可靠的技术依据，
-                                还进一步挖掘了 CCD 技术在高精度检测领域的应用潜力，并明确其当前面临的噪声抑制、响应速度等技术瓶颈。
-                                相关研究结论已形成学术成果，发表于国际期刊 <i>Optics Express</i> [2025, Vol. 33 No. 18]，
-                                为光电器件在精密测量领域的性能优化提供了理论支撑与实践参考。
+                                <li>本项目通过建立噪声分析模型，量化分析模数转换（ADC）噪声对桶形探测器、四象限探测器及 CCD 传感器
+                                三种核心光电探测器件的关键性能指标影响，重点探究噪声水平与位移分辨率、动态范围之间的耦合关系。</li>
+                                <li>研究成果不仅为 MEMS 重力仪等精密测量系统的传感器选型提供了科学、可靠的技术依据，
+                                还进一步挖掘了 CCD 技术在高精度检测领域的应用潜力，并明确其当前面临的噪声抑制、响应速度等技术瓶颈。</li>
+                                <li>相关研究结论已形成学术成果，发表于国际期刊 <i>Optics Express</i> [2025, Vol. 33 No. 18]，
+                                为光电器件在精密测量领域的性能优化提供了理论支撑与实践参考。</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>基于 Silvaco TCAD 的 GaN 功率 HBT 器件仿真研究</h4>
+                            <div class="date">项目描述：聚焦 GaN 功率 HBT 在高频高功率场景的性能优化需求，针对 GaN 基 HBT 结构设计与特性调控展开专项研究。</div>
+                            <div class="text">
+                              <div>技术栈: Silvaco TCAD+器件建模+特性仿真</div>
+                              <ul>
+                                <li>本项目依托 Silvaco TCAD 软件 Atlas/athena 模块，搭建 GaN/Si HBT 与 AlGaN/GaN HBT 两种结构的二维器件模型，
+                                定义材料参数、掺杂浓度及电极结构，构建能带、迁移率等核心物理模型。</li>
+                                <li>通过模型仿真分析器件能带结构、直流特性、击穿特性及频率响应，
+                                  对比得出 AlGaN/GaN HBT（电流增益 23.6 dB、击穿电压 100 V）性能优于 GaN/Si HBT；
+                                  进一步优化基区宽度（100-300 nm）与发射区 Al 组分（0.10-0.25），
+                                  发现基区宽度 300 nm 时击穿电压达 118 V、Al 组分 0.15 时电流增益 45 dB 且频率最优。</li>
+                                <li>研究成果不仅验证了 AlGaN/GaN 结构的应用优势，还明确了器件关键优化参数，为 GaN 功率 HBT 实际制造与性能提升提供理论支撑。</li>
                               </ul>
                             </div>
                           </div>
@@ -344,40 +362,14 @@
                             <div class="text">
                               <div>技术栈: Matlab/Simulink</div>
                               <ul>
-                                本项目依托忆阻器（Memristor）交叉阵列的核心结构，在 Matlab/Simulink 平台上构建神经网络硬件实现仿真模型。
-                                通过该模型精准复现忆阻器的阻变特性，并将其集成应用于 MNIST 手写数字识别典型任务中，经测试最终实现 95% 以上的识别准确率。
-                                研究成果不仅直观验证了忆阻器在存算一体架构中的技术可行性与应用潜力，还为神经网络硬件化仿真建模提供了可参考的实现路径，
-                                为后续基于忆阻器的高性能神经网络系统研发奠定了基础，也为存算一体技术在模式识别领域的落地应用提供了实践依据。
+                                <li>本项目依托忆阻器（Memristor）交叉阵列的核心结构，在 Matlab/Simulink 平台上构建神经网络硬件实现仿真模型。</li>
+                                <li>通过该模型精准复现忆阻器的阻变特性，并将其集成应用于 MNIST 手写数字识别典型任务中，经测试最终实现 95% 以上的识别准确率。</li>
+                                <li>研究成果不仅直观验证了忆阻器在存算一体架构中的技术可行性与应用潜力，还为神经网络硬件化仿真建模提供了可参考的实现路径。</li>
                               </ul>
                             </div>
                           </div>
                         </div>
-                        <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4>nodeJS文章发布系统</h4>
-                            <div class="date">项目描述：CMS文章发布系统，包括前后台开发。</div>
-                            <div class="text">
-                              <div>技术栈: NodeJS+koa2+pm2+vue+elementUI+axios+vuex+webpack</div>
-                              <ul>
-                                <li>后端采用 NodeJS+koa2+开发,vue开发管理后台以及H5页面,pm2发布前后端项目。</li>
-                                <li>NodeJS实现接口身份验证JWT认证登录</li>
-                                <li>管理后台实现了用户模块，分类模块，文章模块，搜索等主要功能。H5实现文章分类及文章详情浏览。</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="timeline-block">
-                          <div class="inner-box">
-                            <h4> 多个官网项目 </h4>
-                            <div class="text">
-                            <div>技术栈:php+TweenMax+jquery+css+animation</div>
-                              <ul>
-                                <li><a href="http://www.iplus-sh.com/">IPLUS官网</a>：使用TweenMax动画完成复杂动画需求</li>
-                                <li>碧云文体发展中心:官方新闻发布系统全站开发，负责前端以及后台PHP二次开发PHPCMS新闻发布系统。</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                        
 
                       </div>
                     </div>
